@@ -6,7 +6,8 @@ function Title(props) {
         <div className="jumbotron">
             <h1 className="display-4">Clicky Game</h1>
             <hr className="my-4"></hr>
-            <p className="lead">{props.count}</p>
+            <p className="lead">High Score: {props.high}</p>
+            <p className="lead">Score: {props.count}</p>
         </div>
     </div>
 }

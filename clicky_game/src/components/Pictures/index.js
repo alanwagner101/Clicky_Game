@@ -2,9 +2,10 @@ import React from "react";
 import "./style.css";
 
 function Pics(props) {
-    return <button className="btn" onClick={props.increaseCounter} data-state={props.clicked}><div className="card">
+
+    return <button className="btn"><div className="card">
         <div className="img-container">
-            <img alt={props.img} src={props.img} />
+            <img id={props.id} alt={props.img} src={props.img} selected={props.clicked} onClick={props.increaseCounter}/>
         </div>
     </div>
     </button>

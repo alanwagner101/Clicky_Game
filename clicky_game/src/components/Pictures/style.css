@@ -1,13 +1,27 @@
 .card {
     margin: 30px;
+    border-radius: 30px;
+    box-shadow: 10px 20px 10px #b44949;
+    transition: all 0.5s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 10px 20px 10px #000000;
 }
 
 img {
     width: 200px;
     height: 200px;
+    border-radius: 30px;
 }
 
 .img-container {
     text-align: center;
+    border-radius: 30px;
 }
+
+.btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none;
+ }
 
